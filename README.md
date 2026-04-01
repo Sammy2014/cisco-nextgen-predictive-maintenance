@@ -19,7 +19,7 @@
 > **Panel B** — Real-time health score timeline: NOMINAL → ALERT → CRITICAL  
 > **Panel C** — APF RUL prediction vs ground truth per node (avg error: ~5.6%)  
 > **Panel D** — Monte Carlo cost savings distribution across 1,000-device fleet, 500 runs  
-> **Panel E** — KPI summary: 86% emergency reduction, $541K annual saving, $2.7M 5-year TCO saving
+> **Panel E** — KPI summary: 86% emergency reduction, ₹5.06 Crore annual saving, ₹25.32 Crore 5-year TCO saving
 
 ---
 
@@ -108,8 +108,8 @@ consistent with Paper 7 Fig. 9 and Paper 8 Fig. 3).
 |---|---|---|
 | APF RUL Average Error | **5.6%** | Paper 7 reports 7–11% ✓ |
 | Emergency Reduction | **86.2%** | Monte Carlo, 500 runs |
-| Annual Fleet Saving | **$541,562** | 1,000-device fleet |
-| 5-Year TCO Saving | **$2,707,810** | vs reactive maintenance baseline |
+| Annual Fleet Saving | **₹5.06 Crore** | 1,000-device fleet |
+| 5-Year TCO Saving | **₹25.32 Crore** | vs reactive maintenance baseline |
 | Cost Reduction | **67.1%** | vs reactive maintenance |
 | Detection Rate | **82–91%** | True positive across simulations |
 | Edge RAM Footprint | **< 0.02 MB** | Meets Cisco MCU constraint |
@@ -168,13 +168,13 @@ python cisco_colab.py
 
 | Sensor | Measurement | Unit Cost |
 |---|---|---|
-| ADXL345 | 3-axis vibration / shock | $2.50 |
-| INA226 | Voltage + current ripple | $1.80 |
-| SHT40 | Temperature + humidity | $2.20 |
-| AD5933 | Impedance spectroscopy (PCB / capacitor health) | $4.50 |
-| ESP32-S3 MCU | Edge inference + MQTT | $3.20 |
-| Passive components + PCB | — | $3.80 |
-| **Total BOM** | | **~$18.00** |
+| ADXL345 | 3-axis vibration / shock | ₹180 |
+| INA226 | Voltage + current ripple | ₹220 |
+| SHT40 | Temperature + humidity | ₹210 |
+| AD5933 | Impedance spectroscopy (PCB / capacitor health) | ₹650 |
+| ESP32-S3 MCU | Edge inference + MQTT | ₹280 |
+| Passive components + PCB | — | ₹350 |
+| **Total BOM** | | **~₹1890** |
 
 All components are COTS (Commercial Off-The-Shelf). No chassis modification required. Module attaches externally to existing Cisco hardware via standard mounting points.
 
