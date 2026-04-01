@@ -5,15 +5,15 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sammy2014/cisco-nextgen-predictive-maintenance/blob/main/02_simulation/cisco_colab.py)
 &nbsp;
-![Python](cisco_stimulation.py)
-![License](LICENSE)
-![Status](Status.md)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](cisco_stimulation.py)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Phase%202%20Submission-orange)](Status.md)
 
 ---
 
 ## Pipeline Output
 
-![Pipeline Results](02_simulation/cisco_nextgen_pipeline.png)
+![Pipeline Results]()
 
 > **Panel A** — 4-node RdsON degradation trajectories with APF predicted paths (dashed) and failure markers (×)  
 > **Panel B** — Real-time health score timeline: NOMINAL → ALERT → CRITICAL  
