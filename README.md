@@ -13,7 +13,7 @@
 
 ## Pipeline Output
 
-[![Pipeline Results](https://img.shields.io/badge/Pipeline-Result-green)](cisco_nextgen_pipeline(1).png)
+[![Pipeline Results](https://img.shields.io/badge/Pipeline-Result-green)](cisco_nextgen_pipeline.png)
 
 > **Panel A** — 4-node RdsON degradation trajectories with APF predicted paths (dashed) and failure markers (×)  
 > **Panel B** — Real-time health score timeline: NOMINAL → ALERT → CRITICAL  
@@ -134,7 +134,7 @@ cisco-nextgen-predictive-maintenance/
 │
 ├── 02_simulation/
 │   ├── cisco_stimulation.py                   ← full pipeline simulation (run in Colab)
-│   └── cisco_nextgen_pipeline(1).png       ← output figure
+│   └── cisco_nextgen_pipeline.png       ← output figure
 │
 ├── 03_research_references/
    └── citations.md                     ← papers mapped to pipeline layers
