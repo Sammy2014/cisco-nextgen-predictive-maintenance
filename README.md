@@ -7,13 +7,13 @@
 &nbsp;
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](cisco_stimulation.py)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Phase%202%20Submission-orange)](Status.md)
+[![Status](https://img.shields.io/badge/Status-Phase%202%20Submission-orange)](coming-soon.png)
 
 ---
 
 ## Pipeline Output
 
-![Pipeline Results]()
+[![Pipeline Results](https://img.shields.io/badge/Pipeline-Result-green)](cisco_nextgen_pipeline(1).png)
 
 > **Panel A** — 4-node RdsON degradation trajectories with APF predicted paths (dashed) and failure markers (×)  
 > **Panel B** — Real-time health score timeline: NOMINAL → ALERT → CRITICAL  
@@ -133,14 +133,11 @@ cisco-nextgen-predictive-maintenance/
 │   └── pipeline_overview.md             ← full 4-layer design with diagrams
 │
 ├── 02_simulation/
-│   ├── cisco_colab.py                   ← full pipeline simulation (run in Colab)
-│   └── cisco_nextgen_pipeline.png       ← output figure
+│   ├── cisco_stimulation.py                   ← full pipeline simulation (run in Colab)
+│   └── cisco_nextgen_pipeline(1).png       ← output figure
 │
 ├── 03_research_references/
-│   └── citations.md                     ← papers mapped to pipeline layers
-│
-└── 04_hardware/
-    └── bom.md                           ← COTS sensor list + BOM cost breakdown
+   └── citations.md                     ← papers mapped to pipeline layers
 ```
 
 ---
