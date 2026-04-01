@@ -5,9 +5,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sammy2014/cisco-nextgen-predictive-maintenance/blob/main/02_simulation/cisco_colab.py)
 &nbsp;
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Phase%202%20Submission-orange)
+![Python](cisco_stimulation.py)
+![License](LICENSE)
+![Status](Status.md)
 
 ---
 
